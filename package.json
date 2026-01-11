@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.1"
+  },
+  "name": "tailwind_pr_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+  "@types/bun": "latest"
+},
+"scripts": {
+  "dev": "vite",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/Dev-Nurul08/Tailwind_Pr_2.git"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"type": "commonjs",
+"bugs": {
+  "url": "https://github.com/Dev-Nurul08/Tailwind_Pr_2/issues"
+},
+"homepage": "https://github.com/Dev-Nurul08/Tailwind_Pr_2#readme",
+"private": true,
+"peerDependencies": {
+  "typescript": "^5"
+}
+}
