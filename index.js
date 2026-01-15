@@ -1,30 +1,21 @@
 const http = require("http");
 const fs = require('fs');
 
-const PORT = 8080;
+const PORT = 8081;
 
 const handleRequest = (req, res) => {
 
     let fileName = '';
 
     switch(req.url){
-        case '/home':
+        case '/':
             fileName = 'index.html';
-            break;
-
-        case '/feature':
-            fileName = 'feature.html';
             break;
 
         case '/pricing':
             fileName = 'pricing.html';
             break;
 
-        default: 
-            fileName = '404.html'
-            break;
-        }
-        
     fs.readFile(fileName, (err,result)=>{
         if(!err){
             res.end(result);
@@ -41,3 +32,4 @@ server.listen(PORT, (err) => {
 
     }
 });
+}

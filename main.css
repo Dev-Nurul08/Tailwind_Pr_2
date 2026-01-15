@@ -1,8 +1,10 @@
+
+
 @import "tailwindcss";
+
 
 @theme {
     --color-saas-orange : #f97136;
-    --color-saas-black : #121212e6;
+    --color-saas-black : #121212;
     --color-saas-darkGray : #222222;
-
 }
